@@ -1,0 +1,72 @@
+# GameMaker Studio 2 .gitignore
+
+# Build outputs
+*.exe
+*.dmg
+*.pkg
+*.deb
+*.rpm
+*.apk
+*.ipa
+*.app
+*.zip
+*.tar.gz
+
+# GameMaker Studio 2 specific
+*.gmx
+*.gms
+*.gms2
+*.yyc
+*.yydebug
+*.yyp.bak
+*.yyp.tmp
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Cache
+cache/
+*.cache
+
+# Backup files
+*.bak
+*.backup
+*_backup.*
+
+# Asset files (uncomment if you want to exclude large assets)
+# *.png
+# *.jpg
+# *.jpeg
+# *.gif
+# *.bmp
+# *.tga
+# *.wav
+# *.mp3
+# *.ogg
+# *.m4a
+# *.wma
+
+# But keep project structure files
+!*.yy
+!*.yyp
